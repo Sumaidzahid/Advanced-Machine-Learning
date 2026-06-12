@@ -1,4 +1,4 @@
-# Used Car Price Prediction & Data Science Analysis
+# Car Price Prediction & Data Science Analysis
 
 A comprehensive machine learning project focused on predicting used car prices using advanced regression techniques, feature engineering, model interpretation, and unsupervised learning methods. The project demonstrates a full data science pipeline from raw data processing to model explainability and dimensionality reduction.
 
