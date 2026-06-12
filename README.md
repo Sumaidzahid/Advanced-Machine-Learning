@@ -91,17 +91,6 @@ The workflow covers data preprocessing, exploratory analysis, modeling, evaluati
 * Dimensionality reduction revealed hidden structure in the dataset
 * Clustering showed natural groupings of vehicle types and price ranges
 
-## How to Run
-
-1. Open the notebook in Google Colab or Jupyter Notebook
-2. Install dependencies:
-
-```bash id="k3p9qa"
-pip install numpy pandas scikit-learn matplotlib seaborn shap
-```
-
-3. Run all cells sequentially
-
 ## Author
 
 Muhammad Zahid
