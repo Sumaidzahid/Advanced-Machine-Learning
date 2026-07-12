@@ -83,6 +83,18 @@ The workflow covers data preprocessing, exploratory analysis, modeling, evaluati
 8. Interpretability analysis (SHAP, permutation importance)
 9. Unsupervised learning exploration (PCA, clustering, etc.)
 
+## Results
+- Reduced dataset size by 8.57% through IQR-based outlier removal while improving data quality.
+- Feature selection was unnecessary, as the full feature set achieved slightly better performance than SelectKBest.
+- Random Forest achieved the highest individual predictive performance (Test R² = 0.925, MAE ≈ £1,469) but showed mild overfitting.
+- Gradient Boosting delivered stable performance with minimal overfitting (Test R² = 0.796, MAE ≈ £2,450).
+- A weighted Voting Regressor outperformed Gradient Boosting and provided strong generalization (Test R² ≈ 0.90, CV MAE ≈ £1,734).
+- Vehicle age, vehicle model, and mileage per year were identified as the most influential features using Permutation Importance and SHAP.
+- SHAP and PDP analyses confirmed realistic vehicle depreciation trends, with increasing age and mileage reducing predicted prices.
+- t-SNE produced the clearest separation between vehicle price groups compared with PCA, MDS, and Isomap.
+- Polynomial regression (degree 2-3) provided the best fit, capturing non-linear depreciation without underfitting or overfitting.
+- K-Means (k = 3) identified well-separated clusters, while DBSCAN detected one dominant cluster with scattered outliers.
+
 ## Key Insights
 
 * Ensemble methods improved predictive stability compared to individual models
