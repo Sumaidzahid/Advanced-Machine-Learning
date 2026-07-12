@@ -95,14 +95,6 @@ The workflow covers data preprocessing, exploratory analysis, modeling, evaluati
 - Polynomial regression (degree 2-3) provided the best fit, capturing non-linear depreciation without underfitting or overfitting.
 - K-Means (k = 3) identified well-separated clusters, while DBSCAN detected one dominant cluster with scattered outliers.
 
-## Key Insights
-
-* Ensemble methods improved predictive stability compared to individual models
-* Feature selection significantly reduced noise and improved performance
-* SHAP and permutation importance provided clear model interpretability
-* Dimensionality reduction revealed hidden structure in the dataset
-* Clustering showed natural groupings of vehicle types and price ranges
-
 ## Author
 
 Muhammad Zahid
