@@ -97,8 +97,7 @@ The workflow covers data preprocessing, exploratory analysis, modeling, evaluati
 
 ## Author
 
-Muhammad Zahid
-MSc Artificial Intelligence | Mechatronics Engineer
+Muhammad Zahid | MSc Artificial Intelligence | Mechatronics Engineer
 
 ## Association 
 
